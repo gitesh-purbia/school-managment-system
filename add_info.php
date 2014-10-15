@@ -5,7 +5,7 @@
     </head>
     
     <body bgcolor="darkseagreen">
-        <form action="" method="POST" name="student">
+        <form action="added_record.php" method="POST" name="student">
             <div align="center" style="vertical-align:top" widht="800px"> <table border="1"> <tr><td align="left">  Name:<input type="text" name="name"></td></tr><br><br>
      <tr><td align="left">Father Name:<input type="text" name="fname"></td></tr><br><br>
      <tr><td align="left">Mother Name:<input type="text" name="mname"></td></tr><br><br>
