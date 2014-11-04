@@ -3,7 +3,10 @@ include 'config.php';
 $sql="SELECT name,fname,mname,lschool,percetange FROM student WHERE id=1";
 $result=mysqli_query($con,$sql);
 $row=mysqli_fetch_array($result);
-echo $row[0];
+
+
+
+
 
                                               
 ?>
@@ -17,7 +20,7 @@ echo $row[0];
                 <td>S.NO:</td>
                 <td colspan="4">Name</td>
                 <td colspan="4">Father Name</td>
-                <td colspan="4">Mather Name</td>
+                <td colspan="4">Mother Name</td>
                 <td colspan="4">Last school</td>
                 <td colspan="4">Percentage</td>
             </tr>
