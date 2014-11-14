@@ -12,7 +12,7 @@ $row_u=mysqli_fetch_array($query_u);
                 <caption><center> Student Info Update Form</center>
                 </caption>
                 <tr><th>Name:</th>
-                    <td><input type="text" name="name" value="<?php echo $row_u['name'];?>"><?php echo $row_u['name'];?></td>
+                    <td> <input type="text" name="name" value="<?php echo $row_u['name'];?>"></td>
                 </tr>
                 
             </table>
